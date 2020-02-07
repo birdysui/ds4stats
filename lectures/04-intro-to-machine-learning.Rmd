@@ -165,7 +165,7 @@ x <- heights$height
 ## Training and test sets
 
 ```{r}
-set.seed(2)
+set.seed(20200207)
 test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)
 
 train_set <- heights[-test_index, ]
